@@ -1,0 +1,18 @@
+.SearchBar {
+    width: 435px;
+    height: 34px;
+    background: #73993d url(../../assets/images/Search.png) no-repeat 10px center;
+    border: none;
+    border-radius: 4px;
+    margin: 17px 30px 17px 31px;
+    padding-left: 38px;
+    box-sizing: border-box;
+}
+
+.SearchBar::placeholder {
+    color: white;
+    font-family: 'Proxima Nova Regular';
+    font-size: 15px;
+    line-height: 42px;
+    vertical-align: middle;
+}

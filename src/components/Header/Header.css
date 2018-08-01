@@ -1,0 +1,13 @@
+.Header {
+    height: 68px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #87b448;
+    display: flex;
+}
+
+.Containers {
+    display: flex;
+}
