@@ -13,6 +13,5 @@
     color: white;
     font-family: 'Proxima Nova Regular';
     font-size: 15px;
-    line-height: 42px;
-    vertical-align: middle;
-}
+    line-height: 34px; /* height of the field and line-height of the placeholder text should be */
+}                      /* equal to vertically center the text */

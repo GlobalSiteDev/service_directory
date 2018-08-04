@@ -1,4 +1,11 @@
 .Container {
-    margin-left: 204px;
+    width: 68.814%;
+    margin: 0 223px 0 15%;
     display: flex;
+}
+
+@media only screen and (max-width: 1110px){
+    .Container {
+        margin-left: 3%;
+    }
 }

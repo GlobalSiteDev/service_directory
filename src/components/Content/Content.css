@@ -1,0 +1,34 @@
+.Content {
+    display: flex;
+    margin-top: 68px;
+}
+
+.LeftSidebar {
+    flex: 0 0 212px;
+    height: 700px;
+    background-color: green;
+}
+
+.RightSidebar {
+    flex: 0 0 213px;
+    height: 700px;
+    background-color: green;
+}
+
+.ServiceDirectory {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: calc(100% - 425px);
+    background-color: blue;
+    margin: 62px 16px 0 15px;
+    padding: 16px 12px 0 0;
+    border-radius: 3px;
+}
+
+.item {
+    width: 140px;
+    height: 140px;
+    margin: 0 2px 0 15px;
+    background-color: red;
+}

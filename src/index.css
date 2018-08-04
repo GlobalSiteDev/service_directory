@@ -1,3 +1,8 @@
+html {                  /* used to not allow vertical scrollbar to brake responsive
+    width:100vw;           layout */
+    overflow-x:hidden;
+}
+
 @font-face {
   font-family: 'Proxima Nova Regular';
   src: url('./assets/fonts/ProximaNova-Regular.eot');
