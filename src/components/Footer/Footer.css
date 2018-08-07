@@ -1,0 +1,22 @@
+.Footer {
+  padding-left: 2px;
+}
+
+.Footer p, .Footer a {
+  font-size: 12px;
+  color: #b7bfcd;
+}
+
+.Footer p {
+  margin-bottom: 9px;
+}
+
+.Footer a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.Footer a:hover {
+  color: #71973c;
+}

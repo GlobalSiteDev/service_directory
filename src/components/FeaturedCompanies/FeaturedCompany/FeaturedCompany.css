@@ -1,0 +1,36 @@
+.FeaturedCompanyContainer {
+  display: flex;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.FeaturedCompanyImage {
+  flex: 0 0 80px;
+  height: 80px;
+  margin: 0 9px 0 2px;
+}
+
+.FeaturedCompanyInfo p {
+  line-height: 12px;
+}
+
+.FeaturedCompanyInfo p:nth-child(2), .FeaturedCompanyInfo p:nth-child(3) {
+  font-size: 14px;
+  color: #7c8695;
+  margin-top: 8px;
+}
+
+.FeaturedCompanyInfo p:nth-last-child(2) { /* in case it'll be needed to add more info */
+  margin-bottom: 2px;
+}
+
+.FeaturedCompanyInfo a {
+  font-size: 12px;
+  color: #1c2534;
+  text-decoration: none;
+
+}
+
+.FeaturedCompanyInfo a:hover {
+  color: #71973c;
+}

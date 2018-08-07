@@ -1,0 +1,17 @@
+.FeaturedProductContainer {
+  display: flex;
+  height: 80px;
+  margin: 4px 0 17px 0;
+}
+
+.FeaturedProductImage {
+  flex: 0 0 80px;
+  height: 80px;
+  margin: 0 9px 0 1px;
+}
+
+.FeaturedProductInfo p {
+  font-size: 13.9px;
+  line-height: 1.19;
+  color: #7c8695;
+}

@@ -1,5 +1,5 @@
-html {                  /* used to not allow vertical scrollbar to brake responsive
-    width:100vw;           layout */
+html {                  /* used to not allow vertical scrollbar to brake responsive */
+    width:100vw;        /* layout */
     overflow-x:hidden;
 }
 
@@ -20,3 +20,48 @@ html {                  /* used to not allow vertical scrollbar to brake respons
 body {
   font-family: 'Proxima Nova Regular';
 }
+
+/* styles to manage content overflow 
+
+.oneLineEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.twoLineEllipsis {
+  overflow: hidden;
+  position: relative; 
+  line-height: 1.2em;
+  max-height: 2.4em; 
+  text-align: justify;  
+  padding-right: 40px;
+  padding-left: 1em;
+}
+
+.threeLinEllipsis {
+  overflow: hidden;
+  position: relative; 
+  line-height: 1.2em;
+  max-height: 3.6em; 
+  text-align: justify;  
+  padding-right: 40px;
+  padding-left: 1em; 
+}
+
+.twoLineEllipsis:before, .threeLinEllipsis:before {
+  content: '...';
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+.twoLineEllipsis:after, .threeLinEllipsis:after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+} */

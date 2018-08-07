@@ -1,0 +1,13 @@
+.NavigationItem a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.NavigationItem span{
+  margin-right: 27px;
+}
+
+.NavigationItem a:hover {
+  color: #71973c;
+}

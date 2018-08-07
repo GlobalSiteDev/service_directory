@@ -1,0 +1,24 @@
+.Ad {
+  width: 100%;
+  height: 387px;
+  box-sizing: border-box;
+}
+
+.Ad p:first-child {
+  font-size: 14px;
+  line-height: 50px;
+  color: #7c8695;
+}
+
+.Ad div {
+  width: 210px;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.Ad p:last-child {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #d3d3d3;
+}

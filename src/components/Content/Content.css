@@ -1,18 +1,14 @@
 .Content {
     display: flex;
-    margin-top: 68px;
+    margin: 68px 223px 0 14.8%;
 }
 
 .LeftSidebar {
-    flex: 0 0 212px;
-    height: 700px;
-    background-color: green;
+    flex: 0 0 212px;            /* flex-grow: 0, flex-shrink: 0, flex-basis: 212px */
 }
 
 .RightSidebar {
     flex: 0 0 213px;
-    height: 700px;
-    background-color: green;
 }
 
 .ServiceDirectory {
@@ -26,7 +22,7 @@
     border-radius: 3px;
 }
 
-.item {
+.ServiceDirectory__item {
     width: 140px;
     height: 140px;
     margin: 0 2px 0 15px;

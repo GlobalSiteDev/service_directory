@@ -1,0 +1,26 @@
+.FeaturedCompaniesContainer {
+  border-bottom: 1px solid #e0e2e6;
+  margin-bottom: 15px;
+}
+
+#title {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+#title p {
+  display: inline-block;
+  color: #7c8695;
+}
+
+#title a {
+  color: #1c2534;
+  text-decoration: none;
+}
+
+#title a:hover {
+  color: #71973c;
+}
