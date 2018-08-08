@@ -1,6 +1,6 @@
 .Content {
     display: flex;
-    margin: 68px 223px 0 14.8%;
+    margin: 68px 223px 0 calc(100vw - 1163px);
 }
 
 .LeftSidebar {
@@ -11,7 +11,7 @@
     flex: 0 0 213px;
 }
 
-@media only screen and (max-width: 1110px){
+@media only screen and (max-width: 1190px){
   .Content {
     margin: 68px 28px 0 3%;
   }
