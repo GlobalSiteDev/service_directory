@@ -10,6 +10,7 @@ import FeaturedCompanies from '../FeaturedCompanies/FeaturedCompanies';
 import Footer from '../Footer/Footer';
 import ProposedPeople from '../ProposedPeople/ProposedPeople';
 import FeaturedProducts from '../FeaturedProducts/FeaturedProducts';
+import ServiceDirectory from '../../containers/ServiceDirectory/ServiceDirectory';
 
 
 const content = () => (
@@ -20,18 +21,11 @@ const content = () => (
             <FeaturedCompanies link="/"></FeaturedCompanies>
             <Footer />
         </div>
-        <div className={classes.ServiceDirectory}>
-            <div className={classes.ServiceDirectory__item}></div>
-            <div className={classes.ServiceDirectory__item}></div>
-            <div className={classes.ServiceDirectory__item}></div>
-            <div className={classes.ServiceDirectory__item}></div>
-            <div className={classes.ServiceDirectory__item}></div>
-            <div className={classes.ServiceDirectory__item}></div>
-        </div>
+        <ServiceDirectory />
         <div className={classes.RightSidebar}>
           <ProposedPeople link="/"></ProposedPeople>
           <FeaturedProducts link="/"></FeaturedProducts>
-          <Ad adImage={CoolHR} border="1px solid #dddddd" marginLeftUpper="2px" marginLeftImg="1px" marginLeftLower="2px"></Ad>
+          <Ad adImage={CoolHR} border="1px solid #ddd" marginLeftUpper="2px" marginLeftImg="1px" marginLeftLower="2px"></Ad>
         </div>
     </div>
 );

@@ -11,20 +11,8 @@
     flex: 0 0 213px;
 }
 
-.ServiceDirectory {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: calc(100% - 425px);
-    background-color: blue;
-    margin: 62px 16px 0 15px;
-    padding: 16px 12px 0 0;
-    border-radius: 3px;
-}
-
-.ServiceDirectory__item {
-    width: 140px;
-    height: 140px;
-    margin: 0 2px 0 15px;
-    background-color: red;
+@media only screen and (max-width: 1110px){
+  .Content {
+    margin: 68px 28px 0 3%;
+  }
 }

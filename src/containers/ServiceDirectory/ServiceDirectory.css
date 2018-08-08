@@ -1,0 +1,49 @@
+.ServiceDirectoryContainer {
+  width: calc(100% - 425px);
+  margin-left: 15px;
+}
+
+.ServiceCategoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  margin: 16px 16px 0 0;
+  padding: 15px 11px 0 0;
+  border: 1px solid #e0e2e6;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 9px;
+  font-size: 30px;
+  font-weight: 200;
+  float: left;
+}
+
+button {
+  float: right;
+  width: 145px;
+  height: 30px;
+  margin: 12px 16px 0 0;
+  color: #fff;
+  border: none;
+  background-color: #87b448;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: #73993d;
+  cursor: pointer;
+}
+
+.Clearfix {
+  overflow: auto;
+}
+
+@media only screen and (max-width: 1110px){
+  .ServiceCategoriesContainer {
+    justify-content: space-around;
+  }
+}
